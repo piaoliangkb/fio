@@ -1,0 +1,16 @@
+[global]
+name=fio-seq-reads
+filename=fio-seq-reads
+directory=tmp/
+rw=read
+bs=1M
+direct=1
+verify=0
+numjobs=4
+time_based
+runtime=20s
+group_reporting=1
+
+[file1]
+size=10G
+ioengine=psync

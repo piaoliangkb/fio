@@ -1,0 +1,15 @@
+[global]
+name=fio-rand-read
+filename=fio-rand-read
+directory=tmp/
+rw=randread
+bs=4K
+direct=1
+verify=0
+time_based
+runtime=20s
+group_reporting=1
+
+[file1]
+size=10G
+ioengine=psync
