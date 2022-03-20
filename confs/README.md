@@ -8,6 +8,6 @@ Parameter setting according to
 How to run:
 
 ```
-mkdir tmp
-sudo fio [file] --output=[output-log]
+mkdir tmp log
+sudo fio [file]
 ```

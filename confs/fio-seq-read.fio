@@ -1,6 +1,6 @@
 [global]
-name=fio-seq-reads
-filename=fio-seq-reads
+name=fio-seq-read
+filename=fio-seq-read
 directory=tmp/
 rw=read
 bs=1M
@@ -10,6 +10,7 @@ numjobs=4
 time_based
 runtime=20s
 group_reporting=1
+output=log/seq-read.log
 
 [file1]
 size=10G
