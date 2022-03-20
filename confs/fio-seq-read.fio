@@ -10,7 +10,6 @@ numjobs=4
 time_based
 runtime=20s
 group_reporting=1
-output=log/seq-read.log
 
 [file1]
 size=10G
